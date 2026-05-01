@@ -3,4 +3,4 @@ Curso de HTML5 e CSS3 do CursoemVídeo
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://lariintech.github.io/html-css/exercicios/ex002/index.html"> Executar o exercício 001
+<a href="https://lariintech.github.io/html-css/exercicios/ex.002/index.html"> Executar o exercício 001
