@@ -26,8 +26,17 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgba(0, 0, 0, 0.863);
             color: white;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(2n) { /* 2n */
+            background-color: lightgray;
         }
 
         td.num {
