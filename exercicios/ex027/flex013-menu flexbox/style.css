@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+#401F03 - Marrom escuro
+#A67841 - Marrom claro
+#F2D272 - Amarelo claro
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: #F2D272;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: #401F03;
+    color: #A67841;
+    padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1 {
+    border: 1px dotted black;
+    flex: 0 0 200px;
+}
+
+header > nav {
+    border: 1px dotted black;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+header > nav > a {
+    background-color: #F2D272;
+    color: #401F03;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > nav > a:hover {
+    background-color: #4f2804;
+    color: #F2D272;
+    transition: background-color .5s;
+}
+
+main {
+    background-color: #A67841;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.300);
+}
+
