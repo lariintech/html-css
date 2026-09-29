@@ -1,8 +1,10 @@
 div {
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 2fr 1fr 5fr 1fr;
+    grid-template-rows: 100px 60px 5fr 60px;
     grid-template-columns: 1fr 2fr 1fr;
-    gap: 10px;
+    gap: 5px;
 }
 
 header {
